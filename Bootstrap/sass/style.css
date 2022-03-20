@@ -1,0 +1,66 @@
+.homepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homepage .left {
+  width: 100px;
+  height: 100vh;
+  background: linear-gradient(90.26deg, #447BE7 21.62%, #0043C5 76.1%);
+}
+
+.homepage .right section.section-one {
+  width: 1266px;
+  height: 100px;
+  border-bottom: 1px solid grey;
+}
+
+.homepage .right section.section-one .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+.homepage .right .section-two {
+  margin-top: 40px;
+}
+
+.homepage .right .section-two .container .row .col {
+  padding: 10px !important;
+}
+
+.homepage .right .section-two .container .row .col .box {
+  width: 100%;
+  height: 273px;
+  margin: 10px;
+  border: 1px solid  #447BE7;
+  border-radius: 12px;
+}
+
+.homepage .right .section-three {
+  margin-top: 40px;
+}
+
+.homepage .right .section-three .container .row {
+  height: 500px;
+}
+
+.homepage .right .section-three .container .row .col .box {
+  width: 100%;
+  height: 500px;
+  background: grey;
+  border-radius: 12px;
+}
+
+.homepage .right .section-three .container .row .col .box .row .col {
+  border: 1px solid red;
+}
+/*# sourceMappingURL=style.css.map */
